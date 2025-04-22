@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amith Viswas Reddy - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="https://i.ibb.co/N2v0V2R8/Amith-Viswas-Reddy.png" alt="Amith Viswas Reddy">
+      </div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Amith Viswas Reddy. D</h1>
+      <p>Passionate Data Scientist & Robotics Developer | AI & ML Enthusiast</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container about-container">
+        <img src="https://i.ibb.co/PGgTrngH/d2d27295-61a5-43fa-bd33-5f44c25e813a.png" class="profile-pic" alt="Profile Picture">
+        <div class="about-text">
+          <h1>D. Amith Viswas Reddy</h1>
+          <p><strong>Passionate Data Scientist & Robotics Developer | AI & ML Enthusiast | Innovating Automation</strong></p>
+          <p>Currently pursuing B.Tech in Computer Science at Lovely Professional University with skills in Python, Java, JavaScript, HTML, CSS, Unix/Linux. Focused on solving complex problems through data science, AI model training, chatbot development and web development.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 style="text-align: center;">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">Data Analysis</div>
+          <div class="skill-card">R Programming</div>
+          <div class="skill-card">Machine Learning</div>
+          <div class="skill-card">AI Model Training</div>
+          <div class="skill-card">Statistical Modeling</div>
+          <div class="skill-card">Prompt Engineering</div>
+          <div class="skill-card">Python Programming</div>
+          <div class="skill-card">Web Development</div>
+          <div class="skill-card">AI Chatbot Development</div>
+          <div class="skill-card">Data Visualization</div>
+          <div class="skill-card">Unix/Linux Environments</div>
+          <div class="skill-card">SQL & Database Management</div>
+          <div class="skill-card">Big Data Technologies (Hadoop, Spark)</div>
+        </div>
+        <div class="projects-btn">
+          <button onclick="showProjects()">View My Projects</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section hidden">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <a href="https://amithviswas.github.io/Landing-Page/" target="_blank" class="project">
+            <img src="https://i.ibb.co/7jTdqCv/Screenshot-2024-07-09-093930.png" alt="Landing Page">
+            <h3>Landing Page</h3>
+          </a>
+          <a href="https://amithviswas.github.io/Home-Theater-Experience/" target="_blank" class="project">
+            <img src="https://i.ibb.co/G52Sq68/Screenshot-of-Home-Theater.png" alt="Home Theater">
+            <h3>Home Theater Experience</h3>
+          </a>
+          <a href="https://amithviswas.github.io/Twitch.tv-UI-Reversed-Engineered-/" target="_blank" class="project">
+            <img src="https://i.ibb.co/kqk32SP/Screenshot-of-Twitch-tv.png" alt="Twitch Clone">
+            <h3>Reverse-engineered Twitch.tv</h3>
+          </a>
+          <a href="https://amithviswas.github.io/Music-Player-with-Slider/" target="_blank" class="project">
+            <img src="https://i.ibb.co/tp12Hq5/Screenshot-2024-07-09-153458.png" alt="Music Player">
+            <h3>Music Player</h3>
+          </a>
+          <a href="https://amithviswas.github.io/Scroll-Game-Dark-Run/" target="_blank" class="project">
+            <img src="https://i.ibb.co/cNNvz48/Screenshot-2024-07-09-154834.png" alt="Dark Run Game">
+            <h3>Dark Run</h3>
+          </a>
+          <a href="https://amithviswas.github.io/Old-Car-Game/" target="_blank" class="project">
+            <img src="https://i.ibb.co/6XYKhGP/Screenshot-2024-07-09-105411.png" alt="Car Game">
+            <h3>Car Game</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container center-contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" onsubmit="handleForm(event)">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div class="social-icons" style="margin-top: 20px;">
+          <a href="https://github.com/amithviswas" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/amith-viswas-reddy/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://instagram.com/amithviswas_reddy" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 D. Amith Viswas Reddy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function showProjects() {
+      document.getElementById('projects').classList.remove('hidden');
+      document.querySelector('.projects-btn').style.display = 'none';
+    }
+
+    function handleForm(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const message = document.getElementById("message").value;
+      alert(`Thank you, ${name}! Your message has been received:\n\n"${message}"`);
+      document.getElementById("contact-form").reset();
+    }
+  </script>
+</body>
+</html>

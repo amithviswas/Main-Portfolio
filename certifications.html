@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certifications - Amith Viswas Reddy</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      flex: 1;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #111;
+    }
+
+    .certifications-container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .certification-item {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .certification-item img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .certification-item img:hover {
+      transform: scale(1.05);
+    }
+
+    .certification-description {
+      flex: 1;
+      font-size: 1.1rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 768px) {
+      .certification-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .certification-description {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+    </ul>
+  </nav>
+
+  <div class="certifications-container">
+    <h2 style="text-align: center;">Certifications</h2>
+
+    <div class="certification-item">
+      <img src="https://i.ibb.co/G4SbmYpd/6fec1819-e21f-4618-a38f-9d58ffa341cc.png" alt="NPTEL Software Testing Certificate" />
+      <div class="certification-description">
+        <h3>NPTEL Certification in Software Testing</h3>
+        <p>This certification from NPTEL confirms my understanding of software testing principles including black-box and white-box testing, test case design, and automated test tools.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="certification-item">
+      <img src="https://i.ibb.co/NgzyW2JK/76090043-7164-48a1-a9ca-121350494613.png" alt="Internship at Academor" />
+      <div class="certification-description">
+        <h3>Internship at Academor</h3>
+        <p>During this internship, I worked on multiple real-world web development projects, strengthening my skills in front-end technologies and teamwork in an agile environment.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="certification-item">
+      <img src="https://i.ibb.co/fVs8kXZs/Screenshot-2025-04-21-192249.png" alt="CipherSchools Full Stack Python Certificate" />
+      <div class="certification-description">
+        <h3>Full Stack Development using Python and Django - CipherSchools</h3>
+        <p>This certification showcases my proficiency in building full-stack applications using Python, Django, HTML, CSS, JavaScript, and integrating databases effectively.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
